@@ -1,0 +1,30 @@
+input, button {
+    display: block;
+    margin: 10px auto;
+}
+
+form {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.inputs, .messages {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.inputs {
+    top: 15%;
+}
+
+.messages {
+    top: 50%;
+    overflow-y: scroll;
+    max-height: 50%;
+}
